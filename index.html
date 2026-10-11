@@ -1,5 +1,693 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dielle | Wedding Design Studio</title><style>
-:root{--paper:#f7f4ee;--ink:#34342f;--muted:#77746c;--accent:#a78d74}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,serif}nav{position:sticky;top:0;z-index:5;background:#f7f4eef2;border-bottom:1px solid #ded8cf;display:flex;align-items:center;justify-content:space-between;padding:16px 5%;gap:20px}nav a{font:11px Arial,sans-serif;letter-spacing:2px;text-decoration:none;color:var(--ink);text-transform:uppercase}.logo{font-size:24px;letter-spacing:6px}.links{display:flex;gap:22px;flex-wrap:wrap}.hero{min-height:78vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:100px 20px;background:linear-gradient(#25251d50,#25251d60),url('https://images.unsplash.com/photo-1519741497674-611481863552?w=1800&q=85') center/cover;color:white}.eyebrow{font:11px Arial,sans-serif;letter-spacing:4px;text-transform:uppercase}.hero h1{font-size:clamp(52px,8vw,110px);font-weight:normal;line-height:1.06;margin:24px 0}.hero p{font-size:18px;letter-spacing:1px}.intro{max-width:780px;margin:90px auto;text-align:center;padding:0 24px}.intro h2{font-size:clamp(32px,5vw,52px);font-weight:normal}.intro p,.description{font:16px/1.85 Arial,sans-serif;color:var(--muted)}.environment{padding:75px 5%;border-top:1px solid #ddd7cd;scroll-margin-top:75px}.environment header{text-align:center;max-width:700px;margin:0 auto 60px}.environment h2{font-size:clamp(45px,7vw,80px);font-weight:normal;margin:14px 0}.section{max-width:1200px;margin:0 auto 90px}.section h3{font-size:34px;font-weight:normal;margin:0 0 12px}.section .description{max-width:740px;margin-bottom:30px}.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.photo{margin:0;cursor:pointer}.photo img{width:100%;height:370px;object-fit:cover;display:block;background:#e4ddd2}.photo figcaption{font:12px/1.5 Arial,sans-serif;letter-spacing:1px;color:#77746c;padding-top:12px}.photo:first-child:nth-last-child(2),.photo:first-child:nth-last-child(2)~.photo{grid-column:span 1}.gallery:has(.photo:nth-child(2):last-child){grid-template-columns:repeat(2,minmax(0,1fr))}.palette{display:flex;justify-content:center;gap:10px;margin:30px auto}.swatch{width:55px;height:55px;border-radius:50%;border:1px solid #ddd}.footer{text-align:center;padding:80px 20px;background:#ebe5dc}.footer h2{font-weight:normal;font-size:36px}.footer p{font:12px Arial,sans-serif;letter-spacing:2px}dialog{border:0;padding:0;background:transparent;max-width:95vw;max-height:95vh}dialog img{max-width:90vw;max-height:85vh;object-fit:contain}dialog::backdrop{background:#000d}.close{position:fixed;right:25px;top:20px;background:white;border:0;border-radius:30px;padding:10px 15px;cursor:pointer}@media(max-width:700px){nav{align-items:flex-start;flex-direction:column}.links{gap:12px}.gallery,.gallery:has(.photo:nth-child(2):last-child){grid-template-columns:1fr}.photo img{height:350px}.environment{padding:55px 6%}.hero{min-height:70vh}}
-</style></head><body><nav><a class="logo" href="#top">DIELLE</a><div class="links"><a href="#env-ceremony">Ceremony</a><a href="#env-cocktail">Pre-drinks</a><a href="#env-reception">Reception</a></div></nav><main id="top"><section class="hero"><div class="eyebrow">Dielle Design Studio · Wedding Vision</div><h1 id="names">Your Wedding Story</h1><p id="details">A celebration thoughtfully imagined</p></section><section class="intro"><div class="eyebrow">A celebration in the making</div><h2 id="intro-title">The Design Vision</h2><p id="intro-copy"></p><div class="palette" id="palette"></div></section><div id="environments"></div></main><footer class="footer"><div class="eyebrow">Designed with intention</div><h2>DIELLE</h2><p>EVENT DESIGN & STYLING</p><p>Concept imagery is for inspiration; final selections are subject to confirmation.</p></footer><dialog id="viewer"><button class="close" onclick="document.getElementById('viewer').close()">✕ Close</button><img alt="Expanded inspiration image" id="expanded"></dialog><script src="client-config.js"></script><script>
-const c=window.DIELLE_CLIENT;document.title=`${c.couple} | Dielle Design Studio`;document.getElementById('names').textContent=c.couple;document.getElementById('details').textContent=[c.date,c.venue].filter(Boolean).join('  ·  ');document.getElementById('intro-title').textContent=c.visionTitle;document.getElementById('intro-copy').textContent=c.vision;document.getElementById('palette').innerHTML=c.palette.map(color=>`<span class="swatch" style="background:${color}" title="${color}"></span>`).join('');const root=document.getElementById('environments');for(const env of c.environments){const wrap=document.createElement('section');wrap.className='environment';wrap.id=env.id;const heading=document.createElement('header');heading.innerHTML=`<div class="eyebrow">${env.number} · The Wedding Experience</div><h2></h2><p class="description"></p>`;heading.querySelector('h2').textContent=env.title;heading.querySelector('p').textContent=env.intro;wrap.appendChild(heading);for(const s of env.sections){const el=document.createElement('div');el.className='section';const h=document.createElement('h3');h.textContent=s.title;const p=document.createElement('p');p.className='description';p.textContent=s.description;const gallery=document.createElement('div');gallery.className='gallery';for(const photo of s.images){const fig=document.createElement('figure');fig.className='photo';const img=document.createElement('img');img.src=photo.src;img.alt=photo.caption||s.title;img.loading='lazy';img.addEventListener('click',()=>{document.getElementById('expanded').src=img.src;document.getElementById('viewer').showModal()});const cap=document.createElement('figcaption');cap.textContent=photo.caption||'';fig.append(img,cap);gallery.appendChild(fig)}el.append(h,p,gallery);wrap.appendChild(el)}root.appendChild(wrap)}document.getElementById('viewer').addEventListener('click',e=>{if(e.target.tagName==='DIALOG')e.target.close()});
-</script></body></html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f4ef">
+<title>Dielle | Wedding Design Moodboard</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap');
+
+:root {
+  --ink: #302d2b;
+  --muted: #77716c;
+  --cream: #f7f4ef;
+  --white: #fffefa;
+  --sage: #e8ebe2;
+  --blush: #f2e8e3;
+  --sand: #eee6d9;
+  --line: #ded8d0;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+}
+a { color: inherit; text-decoration: none; }
+img { display: block; width: 100%; }
+button { font: inherit; }
+section { scroll-margin-top: 95px; }
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(247,244,239,.96);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(14px);
+}
+.nav-inner {
+  max-width: 1440px;
+  margin: auto;
+  padding: 18px 6%;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.brand {
+  font-family: "Playfair Display", serif;
+  font-size: 23px;
+  letter-spacing: .17em;
+  white-space: nowrap;
+}
+.nav-links {
+  display: flex;
+  gap: 28px;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  margin-left: auto;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  padding: 8px 0;
+}
+.nav-links a:hover { opacity: .55; }
+
+.hero {
+  text-align: center;
+  padding: 120px 22px 125px;
+  background: var(--cream);
+}
+.eyebrow {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  color: var(--muted);
+}
+.hero h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: clamp(55px, 10vw, 120px);
+  line-height: 1.05;
+  letter-spacing: -.045em;
+  margin: 28px 0;
+}
+.hero h1 em { font-weight: 400; }
+.hero-description {
+  max-width: 560px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 14px;
+}
+.hero-rule {
+  width: 55px;
+  height: 1px;
+  background: var(--ink);
+  margin: 36px auto;
+}
+
+.section {
+  padding: 100px 7%;
+}
+.section-inner {
+  max-width: 1280px;
+  margin: auto;
+}
+.section-header {
+  max-width: 760px;
+  margin-bottom: 50px;
+}
+.section h2 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(43px, 6vw, 77px);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -.035em;
+  margin: 15px 0 25px;
+}
+.section h2 em { font-weight: 400; }
+.section-intro {
+  max-width: 650px;
+  font-size: 15px;
+  color: #615b56;
+}
+.palette-section { background: var(--white); }
+.overview-section { background: var(--sage); }
+.ceremony-section { background: var(--blush); }
+.cocktail-section { background: var(--sand); }
+.reception-section { background: var(--white); }
+
+.palette-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+.swatch {
+  height: 200px;
+  border: 1px solid rgba(0,0,0,.04);
+}
+.swatch-name {
+  margin-top: 12px;
+  font-size: 11px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.swatch-code {
+  font-size: 11px;
+  color: var(--muted);
+}
+.palette-note {
+  margin-top: 35px;
+  max-width: 700px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.overview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.overview-card {
+  background: rgba(255,255,255,.45);
+  padding: 35px;
+  min-height: 230px;
+}
+.overview-number {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  color: #898c80;
+}
+.overview-card h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.overview-card p {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.subnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 25px;
+  padding: 18px 0;
+  margin: 0 0 40px;
+  border-top: 1px solid rgba(0,0,0,.15);
+  border-bottom: 1px solid rgba(0,0,0,.15);
+}
+.subnav a {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.subnav a:hover { text-decoration: underline; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 18px;
+}
+.gallery-item {
+  grid-column: span 4;
+  margin: 0;
+}
+.gallery-item.wide { grid-column: span 8; }
+.gallery-item.half { grid-column: span 6; }
+.gallery-item img {
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  background: rgba(0,0,0,.04);
+  cursor: zoom-in;
+}
+.gallery-item.wide img { aspect-ratio: 8 / 5; }
+.gallery-item.half img { aspect-ratio: 5 / 4; }
+.gallery-item figcaption {
+  margin: 10px 0 15px;
+  font-size: 11px;
+  letter-spacing: .07em;
+  color: var(--muted);
+}
+.detail-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 400;
+  margin: 75px 0 20px;
+  scroll-margin-top: 115px;
+}
+.detail-text {
+  max-width: 750px;
+  color: var(--muted);
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.quote {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(24px, 4vw, 42px);
+  font-style: italic;
+  line-height: 1.4;
+  max-width: 850px;
+  margin: 75px auto 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 75px 20px;
+  background: #343b34;
+  color: #f5f1e9;
+}
+footer .brand { font-size: 34px; }
+footer p {
+  font-size: 11px;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  opacity: .7;
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(20,20,20,.95);
+  align-items: center;
+  justify-content: center;
+  padding: 65px 20px 25px;
+}
+.lightbox.open { display: flex; }
+.lightbox img {
+  max-width: 100%;
+  max-height: 85vh;
+  object-fit: contain;
+  width: auto;
+}
+.lightbox-close {
+  position: absolute;
+  right: 22px;
+  top: 15px;
+  background: transparent;
+  border: 0;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .nav-inner {
+    display: block;
+    padding: 14px 20px 10px;
+  }
+  .brand { display: block; margin-bottom: 10px; }
+  .nav-links {
+    margin: 0;
+    gap: 23px;
+    padding-bottom: 5px;
+  }
+  .nav-links a { font-size: 9px; }
+  .hero { padding: 90px 20px; }
+  .section { padding: 65px 22px; }
+  .palette-grid { gap: 8px; }
+  .swatch { height: 100px; }
+  .swatch-name { font-size: 9px; }
+  .swatch-code { font-size: 9px; }
+  .overview-grid { grid-template-columns: 1fr; }
+  .overview-card { min-height: 0; padding: 25px; }
+  .gallery { gap: 12px; }
+  .gallery-item,
+  .gallery-item.wide,
+  .gallery-item.half { grid-column: span 6; }
+  .gallery-item img,
+  .gallery-item.wide img,
+  .gallery-item.half img { aspect-ratio: 4 / 5; }
+  .gallery-item figcaption { font-size: 10px; }
+  .detail-heading { font-size: 30px; }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="#home">DIELLE</a>
+    <div class="nav-links">
+      <a href="#palette">Palette</a>
+      <a href="#overview">Day Overview</a>
+      <a href="#ceremony">The Ceremony</a>
+      <a href="#cocktail">Cocktail Hour</a>
+      <a href="#reception">The Reception</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="eyebrow">A Wedding Design Story</div>
+  <h1>Our <em>Vision</em></h1>
+  <div class="hero-rule"></div>
+  <p class="hero-description">
+    A thoughtfully curated collection of inspiration,
+    atmosphere and beautiful details, brought together
+    to tell the story of your celebration.
+  </p>
+  <p class="eyebrow" style="margin-top:45px">
+    Curated by Dielle Events
+  </p>
+</header>
+
+<section class="section palette-section" id="palette">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="eyebrow">The Design Direction</div>
+      <h2>The <em>Palette</em></h2>
+      <p class="section-intro">
+        A considered balance of tones, textures and finishes.
+        These colours form the foundation of our design story.
+      </p>
+    </div>
+
+    <div class="palette-grid">
+      <div>
+        <div class="swatch" style="background:#f4efe7"></div>
+        <div class="swatch-name">Ivory</div>
+        <div class="swatch-code">#F4EFE7</div>
+      </div>
+      <div>
+        <div class="swatch" style="background:#d8c9b8"></div>
+        <div class="swatch-name">Champagne</div>
+        <div class="swatch-code">#D8C9B8</div>
+      </div>
+      <div>
+        <div class="swatch" style="background:#b8bda9"></div>
+        <div class="swatch-name">Sage</div>
+        <div class="swatch-code">#B8BDA9</div>
+      </div>
+      <div>
+        <div class="swatch" style="background:#d9bdb4"></div>
+        <div class="swatch-name">Dusty Rose</div>
+        <div class="swatch-code">#D9BDB4</div>
+      </div>
+      <div>
+        <div class="swatch" style="background:#746e62"></div>
+        <div class="swatch-name">Taupe</div>
+        <div class="swatch-code">#746E62</div>
+      </div>
+    </div>
+
+    <p class="palette-note">
+      The final palette will be refined to complement the
+      venue, season and overall atmosphere of the celebration.
+    </p>
+  </div>
+</section>
+
+<section class="section overview-section" id="overview">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="eyebrow">The Celebration</div>
+      <h2>Day <em>Overview</em></h2>
+      <p class="section-intro">
+        A seamless journey through the day, with each space
+        thoughtfully connected to the next.
+      </p>
+    </div>
+
+    <div class="overview-grid">
+      <a href="#ceremony" class="overview-card">
+        <div class="overview-number">01</div>
+        <h3>The Ceremony</h3>
+        <p>A meaningful beginning, designed to feel
+        intimate, romantic and unforgettable.</p>
+      </a>
+      <a href="#cocktail" class="overview-card">
+        <div class="overview-number">02</div>
+        <h3>Cocktail Hour</h3>
+        <p>A relaxed transition with beautiful styling,
+        drinks and thoughtful guest experiences.</p>
+      </a>
+      <a href="#reception" class="overview-card">
+        <div class="overview-number">03</div>
+        <h3>The Reception</h3>
+        <p>A warm, layered setting for dining,
+        celebration and dancing.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section ceremony-section" id="ceremony">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="eyebrow">Environment I</div>
+      <h2>The <em>Ceremony</em></h2>
+      <p class="section-intro">
+        The moment where it all begins. An atmosphere
+        of understated romance, intentional details
+        and timeless elegance.
+      </p>
+    </div>
+
+    <div class="subnav">
+      <a href="#ceremony-setting">Setting</a>
+      <a href="#ceremony-florals">Florals</a>
+    </div>
+
+    <h3 class="detail-heading" id="ceremony-setting">
+      The Setting
+    </h3>
+    <p class="detail-text">
+      A beautiful ceremony environment shaped by
+      natural textures, thoughtful seating and a
+      striking focal point.
+    </p>
+
+    <div class="gallery">
+      <figure class="gallery-item wide">
+        <img src="images/ceremony-1.jpg" alt="Ceremony setting"
+          loading="lazy">
+        <figcaption>Ceremony inspiration · Overall setting</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/ceremony-2.jpg" alt="Ceremony detail"
+          loading="lazy">
+        <figcaption>Architectural details</figcaption>
+      </figure>
+    </div>
+
+    <h3 class="detail-heading" id="ceremony-florals">
+      Floral Direction
+    </h3>
+    <p class="detail-text">
+      An organic floral approach with layered blooms,
+      elegant movement and carefully balanced proportions.
+    </p>
+
+    <div class="gallery">
+      <figure class="gallery-item half">
+        <img src="images/ceremony-3.jpg" alt="Ceremony flowers"
+          loading="lazy">
+        <figcaption>Floral composition</figcaption>
+      </figure>
+      <figure class="gallery-item half">
+        <img src="images/ceremony-4.jpg" alt="Ceremony aisle"
+          loading="lazy">
+        <figcaption>Aisle and floral detailing</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="section cocktail-section" id="cocktail">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="eyebrow">Environment II</div>
+      <h2>Cocktail <em>Hour</em></h2>
+      <p class="section-intro">
+        A moment to mingle, unwind and enjoy.
+        This space brings together inviting lounge
+        settings, elegant service and playful details.
+      </p>
+    </div>
+
+    <div class="subnav">
+      <a href="#cocktail-lounge">Lounge & Styling</a>
+      <a href="#cocktail-bar">Bar & Service</a>
+    </div>
+
+    <h3 class="detail-heading" id="cocktail-lounge">
+      Lounge & Styling
+    </h3>
+    <p class="detail-text">
+      Comfortable gathering spaces with furniture,
+      florals and accents that carry the design
+      story throughout the celebration.
+    </p>
+
+    <div class="gallery">
+      <figure class="gallery-item half">
+        <img src="images/cocktail-1.jpg" alt="Cocktail lounge"
+          loading="lazy">
+        <figcaption>Lounge inspiration</figcaption>
+      </figure>
+      <figure class="gallery-item half">
+        <img src="images/cocktail-2.jpg" alt="Cocktail styling"
+          loading="lazy">
+        <figcaption>Decor and finishing touches</figcaption>
+      </figure>
+    </div>
+
+    <h3 class="detail-heading" id="cocktail-bar">
+      Bar & Service
+    </h3>
+    <div class="gallery">
+      <figure class="gallery-item wide">
+        <img src="images/cocktail-3.jpg" alt="Cocktail bar"
+          loading="lazy">
+        <figcaption>Bar and drinks presentation</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/cocktail-4.jpg" alt="Cocktail details"
+          loading="lazy">
+        <figcaption>Guest experience details</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="section reception-section" id="reception">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="eyebrow">Environment III</div>
+      <h2>The <em>Reception</em></h2>
+      <p class="section-intro">
+        The heart of the celebration. A beautifully
+        layered environment where candlelight,
+        florals, texture and thoughtful design
+        create an unforgettable atmosphere.
+      </p>
+    </div>
+
+    <div class="subnav">
+      <a href="#reception-setting">Environment</a>
+      <a href="#reception-tables">Tablescapes</a>
+      <a href="#reception-details">Details</a>
+    </div>
+
+    <h3 class="detail-heading" id="reception-setting">
+      The Environment
+    </h3>
+    <p class="detail-text">
+      An immersive reception setting with a cohesive
+      visual identity, atmospheric lighting and
+      beautifully considered spatial design.
+    </p>
+
+    <div class="gallery">
+      <figure class="gallery-item wide">
+        <img src="images/reception-1.jpg" alt="Reception setting"
+          loading="lazy">
+        <figcaption>Overall reception atmosphere</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="images/reception-2.jpg" alt="Reception lighting"
+          loading="lazy">
+        <figcaption>Lighting and environment</figcaption>
+      </figure>
+    </div>
+
+    <h3 class="detail-heading" id="reception-tables">
+      Tablescapes
+    </h3>
+    <p class="detail-text">
+      Refined place settings, floral arrangements,
+      candlelight and beautiful linens combine to
+      create a welcoming dining experience.
+    </p>
+
+    <div class="gallery">
+      <figure class="gallery-item half">
+        <img src="images/reception-3.jpg" alt="Table styling"
+          loading="lazy">
+        <figcaption>Table design</figcaption>
+      </figure>
+      <figure class="gallery-item half">
+        <img src="images/reception-4.jpg" alt="Place setting"
+          loading="lazy">
+        <figcaption>Place settings and floral styling</figcaption>
+      </figure>
+    </div>
+
+    <h3 class="detail-heading" id="reception-details">
+      The Details
+    </h3>
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img src="images/reception-5.jpg" alt="Reception detail"
+          loading="lazy">
+        <figcaption>Decor details</figcaption>
+      </figure>
+      <figure class="gallery-item wide">
+        <img src="images/reception-6.jpg" alt="Reception feature"
+          loading="lazy">
+        <figcaption>Statement moments</figcaption>
+      </figure>
+    </div>
+
+    <p class="quote">
+      "Every detail considered. Every moment
+      beautifully connected."
+    </p>
+  </div>
+</section>
+
+<footer>
+  <div class="brand">DIELLE</div>
+  <p>Thoughtfully Designed Celebrations</p>
+  <p>Wedding Design & Event Styling</p>
+</footer>
+
+<div class="lightbox" id="lightbox" role="dialog"
+  aria-label="Image preview" aria-modal="true">
+  <button class="lightbox-close" id="closeLightbox"
+    aria-label="Close image">&times;</button>
+  <img id="lightboxImage" alt="Enlarged inspiration image">
+</div>
+
+<script>
+const lightbox = document.getElementById("lightbox");
+const lightboxImage = document.getElementById("lightboxImage");
+
+document.querySelectorAll(".gallery img").forEach(img => {
+  img.addEventListener("click", () => {
+    lightboxImage.src = img.src;
+    lightboxImage.alt = img.alt;
+    lightbox.classList.add("open");
+  });
+});
+
+function closeLightbox() {
+  lightbox.classList.remove("open");
+  lightboxImage.removeAttribute("src");
+}
+
+document.getElementById("closeLightbox")
+  .addEventListener("click", closeLightbox);
+
+lightbox.addEventListener("click", event => {
+  if (event.target === lightbox) closeLightbox();
+});
+
+document.addEventListener("keydown", event => {
+  if (event.key === "Escape") closeLightbox();
+});
+</script>
+
+</body>
+</html>
