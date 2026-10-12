@@ -73,34 +73,57 @@ window.DIELLE_CLIENTS = {
         ]
       },
 
-      {
-        id: "predrinks",
-        eyebrow: "Environment II",
-        title: "Predrinks",
-        tone: "sand",
 
-        introduction: "A relaxed transition for guests to mingle, unwind and enjoy.",
-
-        groups: [
-
-          {
-            title: "Lounge & Styling",
-            description: "Comfortable gathering spaces and considered styling details.",
-
-            images: [
-              {
-                src: "images/sample-wedding/predrinks-1.jpg",
-                caption: "Lounge inspiration"
-              },
-              {
-                src: "images/sample-wedding/predrinks-2.jpg",
-                caption: "Bar and drinks presentation"
-              }
-            ]
-          }
-
-        ]
-      },
+{
+  id: "predrinks",
+  eyebrow: "Environment II",
+  title: "Predrinks | A Journey Across the Lake",
+  tone: "ivory",
+  introduction: "A celebration that begins long before the reception. Guests will board the boat for a relaxed cruise across Lake Kariba, enjoying live saxophone music, giant games, delicious canapés and signature his-and-hers cocktails. With the beautiful lake as the backdrop, the journey becomes an experience of its own.",
+  groups: [
+    {
+      title: "The Boat Experience",
+      description: "The boat provides a relaxed setting for guests to enjoy the scenery, mingle and celebrate as they make their way to the reception.",
+      images: [
+        {
+          src: "images/deanne-devan/predrinks-boat-1.png",
+          caption: "The boat and surrounding lake"
+        },
+        {
+          src: "images/deanne-devan/predrinks-boat-2.png",
+          caption: "Indoor lounge"
+        },
+        {
+          src: "images/deanne-devan/predrinks-boat-3.png",
+          caption: "Outdoor deck"
+        },
+        {
+          src: "images/deanne-devan/predrinks-boat-4.png",
+          caption: "Onboard lounge and seating"
+        }
+      ]
+    },
+    {
+      title: "The Onboard Experience",
+      description: "A live saxophonist, giant games, canapés and refreshing drinks create a fun and relaxed atmosphere throughout the cruise.",
+      images: []
+    },
+    {
+      title: "The Bar & Floral Styling",
+      description: "A personalised soft-blue fabric bar menu, complemented by a delicate arrangement of white flowers, pale-blue hydrangeas and fresh greenery. These understated details are the only decorative styling planned for the boat.",
+      images: [
+        {
+          src: "images/deanne-devan/predrinks-bar-menu.png",
+          caption: "Personalised fabric bar menu"
+        },
+        {
+          src: "images/deanne-devan/predrinks-bar-florals.png",
+          caption: "Soft blue and white floral arrangement"
+        }
+      ]
+    }
+  ]
+},
 
       {
         id: "reception",
