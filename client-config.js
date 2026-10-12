@@ -223,4 +223,42 @@ window.DIELLE_CLIENTS = {
           {
             title: "The Altar",
 
-            description: "An oversized wooden cross draped in flowing ivory fabric forms the focal point of the ceremony. An organic floor installation of
+                        description: "An oversized wooden cross draped in flowing ivory fabric forms the focal point of the ceremony, surrounded by white flowers and greenery.",
+
+            images: [
+              {
+                src: "images/deanne-devan/altar.png",
+                caption: "Oversized wooden cross and altar design"
+              },
+              {
+                src: "images/deanne-devan/florals.png",
+                caption: "White floral and greenery direction"
+              }
+            ]
+          }
+
+        ]
+      },
+
+      {
+        id: "predrinks",
+        eyebrow: "Environment II",
+        title: "Predrinks",
+        tone: "ivory",
+        introduction: "Design direction to follow.",
+        groups: []
+      },
+
+      {
+        id: "reception",
+        eyebrow: "Environment III",
+        title: "The Reception",
+        tone: "sage",
+        introduction: "Design direction to follow.",
+        groups: []
+      }
+
+    ]
+  }
+
+};
