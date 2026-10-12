@@ -56,7 +56,6 @@ window.DIELLE_CLIENTS = {
         ]
       }
     ]
-  }
 },
      "deanne-devan": {
     couple: "Deanne & Devan",
