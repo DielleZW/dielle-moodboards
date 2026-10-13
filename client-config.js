@@ -77,48 +77,50 @@ window.DIELLE_CLIENTS = {
 {
   id: "predrinks",
   eyebrow: "Environment II",
-  title: "Predrinks | A Journey Across the Lake",
+  title: "Predrinks",
   tone: "ivory",
-  introduction: "A celebration that begins long before the reception. Guests will board the boat for a relaxed cruise across Lake Kariba, enjoying live saxophone music, giant games, delicious canapés and signature his-and-hers cocktails. With the beautiful lake as the backdrop, the journey becomes an experience of its own.",
+
+  introduction: "A journey across Lake Kariba becomes part of the celebration itself. Guests will travel by boat to the reception, enjoying the natural beauty of the lake alongside live saxophone music, canapés and signature his-and-hers cocktails.",
+
   groups: [
     {
-      title: "The Boat Experience",
-      description: "The boat provides a relaxed setting for guests to enjoy the scenery, mingle and celebrate as they make their way to the reception.",
+      title: "A Journey Across the Lake",
+
+      description: "The boat and surrounding landscape set the scene for a relaxed transition from ceremony to reception, giving guests time to mingle, enjoy the views and take in Lake Kariba.",
+
       images: [
         {
           src: "images/deanne-devan/predrinks-boat-1.png",
-          caption: "The boat and surrounding lake"
+          caption: "The boat experience"
         },
         {
           src: "images/deanne-devan/predrinks-boat-2.png",
-          caption: "Indoor lounge"
+          caption: "Lake Kariba setting"
         },
         {
           src: "images/deanne-devan/predrinks-boat-3.png",
-          caption: "Outdoor deck"
+          caption: "Relaxed onboard atmosphere"
         },
         {
           src: "images/deanne-devan/predrinks-boat-4.png",
-          caption: "Onboard lounge and seating"
+          caption: "A journey across the lake"
         }
       ]
     },
+
     {
-      title: "The Onboard Experience",
-      description: "A live saxophonist, giant games, canapés and refreshing drinks create a fun and relaxed atmosphere throughout the cruise.",
-      images: []
-    },
-    {
-      title: "The Bar & Floral Styling",
-      description: "A personalised soft-blue fabric bar menu, complemented by a delicate arrangement of white flowers, pale-blue hydrangeas and fresh greenery. These understated details are the only decorative styling planned for the boat.",
+      title: "The Bar",
+
+      description: "DIÉLLE's styling will focus on the bar presentation, with a personalised menu and a soft floral arrangement bringing the wedding palette onto the boat. White flowers, pale blue tones and fresh greenery keep the look elegant while still feeling natural and appropriate to the setting.",
+
       images: [
         {
           src: "images/deanne-devan/predrinks-bar-menu.png",
-          caption: "Personalised fabric bar menu"
+          caption: "Personalised bar menu"
         },
         {
           src: "images/deanne-devan/predrinks-bar-florals.png",
-          caption: "Soft blue and white floral arrangement"
+          caption: "Bar floral styling"
         }
       ]
     }
