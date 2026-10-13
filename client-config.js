@@ -376,25 +376,29 @@ window.DIELLE_CLIENTS = {
           // 3 IMAGES
 
           {
-            title: "Table Styling & Florals",
 
-            description: "The tables will feel like individual moments within a fairy garden rather than identical repeated settings. Different tables will feature a mix of delicate bud vases and bowls, flowers emerging naturally through beds of moss, fresh greenery and tables dominated by layers of candlelight. Light blue florals will appear softly throughout the room, balanced by fresh greens and ivory flowers.",
+  title: "Table Styling & Florals",
 
-            images: [
-              {
-                src: "images/deanne-devan/reception-florals-1.png",
-                caption: "Fresh greens and delicate light blue florals"
-              },
-              {
-                src: "images/deanne-devan/reception-florals-2.png",
-                caption: "Flowers growing through natural moss"
-              },
-              {
-                src: "images/deanne-devan/reception-florals-3.png",
-                caption: "Bud vases, floral bowls and candlelight"
-              }
-            ]
-          },
+  description: "The tables will feel like individual moments within a fairy garden rather than identical repeated settings. Different tables will feature a mix of delicate bud vases and bowls, flowers emerging naturally through beds of moss, fresh greenery and tables dominated by layers of candlelight. Light blue florals will appear softly throughout the room, balanced by fresh greens and ivory flowers.",
+
+  images: [
+
+    {
+      src: "images/deanne-devan/reception-florals-1.png",
+      caption: "Fairy-garden floral design growing through natural moss"
+    },
+
+    {
+      src: "images/deanne-devan/reception-florals-2.png",
+      caption: "Moss bowls and delicate mismatched bud vases"
+    },
+
+    {
+      src: "images/deanne-devan/reception-florals-3.png",
+      caption: "Candle-led table styling"
+    }
+  ]
+}
 
 
           // 5 — PLACE SETTING
