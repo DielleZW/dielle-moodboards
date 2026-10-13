@@ -270,7 +270,7 @@ window.DIELLE_CLIENTS = {
         eyebrow: "Environment II",
         title: "Predrinks",
         tone: "ivory",
-        introduction: "Design direction to follow.",
+        introduction: "A journey across Lake Kariba becomes part of the celebration itself. Guests will travel by boat to the reception, enjoying the natural beauty of the lake alongside live saxophone music, canapés and signature his-and-hers cocktails.",
         groups: []
       },
 
