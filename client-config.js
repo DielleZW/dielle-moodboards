@@ -309,8 +309,9 @@ window.DIELLE_CLIENTS = {
 
         groups: [
 
-          // 1 — TENT ATMOSPHERE
-          // 2 IMAGES
+          // --------------------------------------
+          // TENT ATMOSPHERE
+          // --------------------------------------
 
           {
             title: "The Tent Atmosphere",
@@ -330,8 +331,9 @@ window.DIELLE_CLIENTS = {
           },
 
 
-          // 2 — LIGHTING DETAIL
-          // 2 IMAGES
+          // --------------------------------------
+          // LIGHTING DETAIL
+          // --------------------------------------
 
           {
             title: "Lighting Detail",
@@ -351,8 +353,9 @@ window.DIELLE_CLIENTS = {
           },
 
 
-          // 3 — TABLE LAYOUT
-          // 2 IMAGES
+          // --------------------------------------
+          // TABLE LAYOUT
+          // --------------------------------------
 
           {
             title: "Table Layout & Serpentine Design",
@@ -372,37 +375,35 @@ window.DIELLE_CLIENTS = {
           },
 
 
-          // 4 — TABLE STYLING & FLORALS
-          // 3 IMAGES
+          // --------------------------------------
+          // TABLE STYLING & FLORALS
+          // --------------------------------------
 
           {
+            title: "Table Styling & Florals",
 
-  title: "Table Styling & Florals",
+            description: "The tables will feel like individual moments within a fairy garden rather than identical repeated settings. Different tables will feature a mix of delicate bud vases and bowls, flowers emerging naturally through beds of moss, fresh greenery and tables dominated by layers of candlelight. Light blue florals will appear softly throughout the room, balanced by fresh greens and ivory flowers.",
 
-  description: "The tables will feel like individual moments within a fairy garden rather than identical repeated settings. Different tables will feature a mix of delicate bud vases and bowls, flowers emerging naturally through beds of moss, fresh greenery and tables dominated by layers of candlelight. Light blue florals will appear softly throughout the room, balanced by fresh greens and ivory flowers.",
-
-  images: [
-
-    {
-      src: "images/deanne-devan/reception-florals-1.png",
-      caption: "Fairy-garden floral design growing through natural moss"
-    },
-
-    {
-      src: "images/deanne-devan/reception-florals-2.png",
-      caption: "Moss bowls and delicate mismatched bud vases"
-    },
-
-    {
-      src: "images/deanne-devan/reception-florals-3.png",
-      caption: "Candle-led table styling"
-    }
-  ]
-}
+            images: [
+              {
+                src: "images/deanne-devan/reception-florals-1.png",
+                caption: "Fairy-garden floral design growing through natural moss"
+              },
+              {
+                src: "images/deanne-devan/reception-florals-2.png",
+                caption: "Moss bowls and delicate mismatched bud vases"
+              },
+              {
+                src: "images/deanne-devan/reception-florals-3.png",
+                caption: "Candle-led table styling"
+              }
+            ]
+          },
 
 
-          // 5 — PLACE SETTING
-          // 2 IMAGES
+          // --------------------------------------
+          // PLACE SETTING
+          // --------------------------------------
 
           {
             title: "The Place Setting",
@@ -422,8 +423,9 @@ window.DIELLE_CLIENTS = {
           },
 
 
-          // 6 — HEAD TABLE
-          // 1 IMAGE
+          // --------------------------------------
+          // HEAD TABLE
+          // --------------------------------------
 
           {
             title: "The Head Table",
@@ -439,8 +441,9 @@ window.DIELLE_CLIENTS = {
           },
 
 
-          // 7 — BAR & DANCEFLOOR
-          // 3 IMAGES
+          // --------------------------------------
+          // BAR & DANCEFLOOR
+          // --------------------------------------
 
           {
             title: "The Bar & Dancefloor",
