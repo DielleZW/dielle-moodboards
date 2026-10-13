@@ -218,11 +218,11 @@ window.DIELLE_CLIENTS = {
 
             images: [
               {
-                src: "images/deanne-devan/ceremony.png",
+                src: "images/deanne-devan/deanne dev ceremony.png",
                 caption: "Overall ceremony direction"
               },
               {
-                src: "images/deanne-devan/deanne dev ceremony.png",
+                src: "images/deanne-devan/aisle.png",
                 caption: "Ceremony setting inspiration"
               }
             ]
@@ -235,7 +235,7 @@ window.DIELLE_CLIENTS = {
 
             images: [
               {
-                src: "images/deanne-devan/aisle.png",
+                src: "images/deanne-devan/ceremony.png",
                 caption: "Jute aisle and floral direction"
               },
               {
