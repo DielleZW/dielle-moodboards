@@ -472,4 +472,421 @@ window.DIELLE_CLIENTS = {
     ]
   }
 
+},
+
+  // ==========================================
+  // SANIYAH & BILAL
+  // ==========================================
+
+  "saniyah-bilal": {
+
+    couple: "Saniyah & Bilal",
+    date: "27 March 2027",
+    venue: "Wild Geese",
+    kicker: "A Nikah reception luncheon design story",
+
+    introduction: "A Garden in Celebration. A richly layered Nikah luncheon inspired by the romance of an abundant garden. Deep olive drapery and sweeping cream fabric transform the venue, while oversized fringed chandeliers and warm lighting create a sense of grandeur overhead. Below, wine, dusty mauve, blush and fresh green florals spill organically across the tables, creating an atmosphere that feels elegant, abundant and wonderfully alive.",
+
+    colors: [
+      { name: "Wine", hex: "#651F30" },
+      { name: "Dusty Mauve", hex: "#A8697A" },
+      { name: "Blush", hex: "#DFC0C3" },
+      { name: "Cream", hex: "#EDDFCA" },
+      { name: "Sage", hex: "#B7BB88" },
+      { name: "Olive", hex: "#6E6B41" }
+    ],
+
+    paletteNote: "Deep wine and burgundy meet dusty mauve, blush and soft cream, balanced by fresh greens and rich olive. Natural moss, exposed wood, silver detailing and warm candlelight complete the garden-inspired palette.",
+
+    sections: [
+
+      // ======================================
+      // PRE-RECEPTION
+      // ======================================
+
+      {
+        id: "pre-reception",
+        eyebrow: "The Welcome",
+        title: "Pre-Reception",
+        tone: "ivory",
+
+        introduction: "The experience begins with a fresh and elegant welcome, offering guests their first glimpse of the celebration. This space is intentionally softer and more restrained, saving the grand botanical reveal for the main reception.",
+
+        groups: [
+          {
+            title: "Welcome Drinks & Refreshments",
+            description: "A beautifully styled drinks station combining clear glass, natural wood, soft blush flowers and greenery. Fresh juices, lemonade, iced tea, infused waters and signature mocktails will be presented with considered garnishes, personalised signage and polished service.",
+
+            images: [
+              {
+                src: "images/saniyah-bilal/palette-and-table-direction.jpeg",
+                caption: "Natural textures and soft botanical styling inspiration"
+              }
+            ]
+          },
+
+          {
+            title: "The First Impression",
+            description: "A relaxed and refined welcome that introduces the floral palette through subtle blush accents and natural greenery. The atmosphere should feel inviting and thoughtfully styled without revealing the full scale of the reception design.",
+
+            images: []
+          }
+        ]
+      },
+
+      // ======================================
+      // GRAND ENTRANCE
+      // ======================================
+
+      {
+        id: "entrance",
+        eyebrow: "Environment I",
+        title: "The Grand Entrance",
+        tone: "sage",
+
+        introduction: "A dramatic architectural entrance in rich olive drapery creates the first major statement of the celebration. Layered fabric, sculptural floral forms and organic greenery draw guests into the garden-inspired world beyond.",
+
+        groups: [
+          {
+            title: "The Olive Draped Entrance",
+            description: "Floor-to-ceiling olive fabric transforms the entrance into a dramatic, tunnel-like opening. Multiple layers of drapery are swept back to create depth, movement and a sense of anticipation.",
+
+            images: [
+              {
+                src: "images/saniyah-bilal/entrance-olive-draping-1.png",
+                caption: "Statement olive drapery entrance"
+              },
+              {
+                src: "images/saniyah-bilal/entrance-olive-draping-2.jpeg",
+                caption: "Layered architectural drapery inspiration"
+              }
+            ]
+          },
+
+          {
+            title: "Botanical Entrance Styling",
+            description: "Natural moss-covered floral mounds, ferns, grasses and statement burgundy flowers soften the base of the drapery. The arrangements should feel as though they are growing organically from the ground.",
+
+            images: [
+              {
+                src: "images/saniyah-bilal/florals-statement-1.png",
+                caption: "Rich sculptural floral inspiration"
+              }
+            ]
+          }
+        ]
+      },
+
+      // ======================================
+      // MAIN VENUE
+      // ======================================
+
+      {
+        id: "venue",
+        eyebrow: "Environment II",
+        title: "The Reception Atmosphere",
+        tone: "ivory",
+
+        introduction: "The main luncheon space is designed to feel like stepping into an extraordinary garden. Sweeping olive and cream drapery, oversized statement chandeliers, sculptural greenery and abundant florals create a dramatic yet elegant environment for 300 guests.",
+
+        groups: [
+          {
+            title: "A Garden Within the Venue",
+            description: "The reception will be transformed through a combination of olive-green drapery, warm cream fabrics, layered floral installations and natural greenery. The scale of the design will create a sense of grandeur while preserving a romantic and organic atmosphere.",
+
+            images: [
+              {
+                src: "images/saniyah-bilal/reception-olive-draping-trees-1.jpeg",
+                caption: "Olive draping and statement greenery installations"
+              },
+              {
+                src: "images/saniyah-bilal/draping-olive-cream-ceiling-1.png",
+                caption: "Sweeping fabric and dramatic venue atmosphere"
+              }
+            ]
+          },
+
+          {
+            title: "Statement Greenery Installations",
+            description: "Tree-inspired greenery installations and sculptural botanical features introduce height and movement throughout the room, creating the impression of a garden growing within the reception space.",
+
+            images: []
+          }
+        ]
+      },
+
+      // ======================================
+      // DRAPERY & LIGHTING
+      // ======================================
+
+      {
+        id: "drapery-lighting",
+        eyebrow: "The Atmosphere",
+        title: "Drapery & Statement Lighting",
+        tone: "sand",
+
+        introduction: "Overhead treatments become a defining feature of the design. Flowing olive and cream fabric, spectacular three-metre fringed chandeliers and warm suspended bulbs bring softness, drama and a beautiful sense of scale.",
+
+        groups: [
+          {
+            title: "Sweeping Drapery",
+            description: "Olive-green and cream fabrics will sweep across the ceiling in generous, sculptural sections. The drapery creates a softened architectural canopy that visually connects the entrance, dining area and sweetheart table.",
+
+            images: [
+              {
+                src: "images/saniyah-bilal/draping-cream-ceiling-1.png",
+                caption: "Soft cream ceiling drapery"
+              },
+              {
+                src: "images/saniyah-bilal/draping-olive-cream-ceiling-1.png",
+                caption: "Olive and cream overhead fabric treatment"
+              }
+            ]
+          },
+
+          {
+            title: "Three-Metre Fringed Chandeliers",
+            description: "Oversized chandeliers, approximately three metres in scale, will feature layers of olive and cream fringe with warm naked bulbs suspended within. These statement installations create visual impact while introducing softness, texture and movement overhead.",
+
+            images: [
+              {
+                src: "images/saniyah-bilal/lighting-fringe-chandelier-1.png",
+                caption: "Oversized fringe chandelier inspiration"
+              },
+              {
+                src: "images/saniyah-bilal/lighting-fringe-chandeliers-2.jpeg",
+                caption: "Statement chandeliers and warm suspended lighting"
+              }
+            ]
+          }
+        ]
+      },
+
+      // ======================================
+      // TABLE LAYOUT
+      // ======================================
+
+      {
+        id: "table-layout",
+        eyebrow: "The Dining Experience",
+        title: "Table Layout & Seating",
+        tone: "ivory",
+
+        introduction: "A carefully considered combination of flowing serpentine tables and classic round tables creates movement throughout the reception. The layout feels organic and visually interesting while comfortably accommodating the scale of the celebration.",
+
+        groups: [
+          {
+            title: "Serpentine Tables",
+            description: "Flowing serpentine tables feature exposed natural wooden surfaces, continuous moss runners, sculptural flowers, orchids, calla lilies and small amber candleholders. The botanical styling follows every curve of the tables, creating a continuous garden-like installation.",
+
+            images: [
+              {
+                src: "images/saniyah-bilal/tables-serpentine-florals-1.png",
+                caption: "Serpentine tables with flowing botanical arrangements"
+              },
+              {
+                src: "images/saniyah-bilal/tables-long-burgundy-florals-1.png",
+                caption: "Rich burgundy floral styling on elongated tables"
+              }
+            ]
+          },
+
+          {
+            title: "Round Tables & Seating",
+            description: "Classic round tables will be dressed in softly draped champagne and ivory-toned linen, with coordinating floral arrangements at varying heights. Clear Chiavari chairs keep the setting contemporary and visually light, allowing the florals and drapery to remain the focal points.",
+
+            images: [
+              {
+                src: "images/saniyah-bilal/tables-round-florals-1.png",
+                caption: "Round-table floral and dining inspiration"
+              }
+            ]
+          }
+        ]
+      },
+
+      // ======================================
+      // FLORAL DESIGN
+      // ======================================
+
+      {
+        id: "florals",
+        eyebrow: "The Botanical Story",
+        title: "Table Styling & Florals",
+        tone: "sage",
+
+        introduction: "The floral design celebrates the richness of an abundant garden. Sculptural burgundy, wine, dusty mauve and blush flowers are layered with fresh greens, natural moss and delicate movement to create arrangements that feel expressive, romantic and alive.",
+
+        groups: [
+          {
+            title: "Sculptural Floral Direction",
+            description: "A considered mixture of hydrangeas, anthuriums, orchids, calla lilies, roses and other sculptural seasonal blooms creates depth, shape and movement. Deep burgundy flowers anchor the palette, while blush, mauve and cream tones soften the overall effect.",
+
+            images: [
+              {
+                src: "images/saniyah-bilal/florals-sculptural-1.png",
+                caption: "Sculptural garden-inspired floral forms"
+              },
+              {
+                src: "images/saniyah-bilal/florals-statement-1.png",
+                caption: "Rich statement floral direction"
+              }
+            ]
+          },
+
+          {
+            title: "Organic Garden Tablescapes",
+            description: "Arrangements will feel naturally layered rather than rigid or uniform. Flowers emerge from moss, intertwine with greenery and extend across the tables in varied heights, creating a sense of an abundant garden brought indoors.",
+
+            images: [
+              {
+                src: "images/saniyah-bilal/florals-garden-table-1.jpeg",
+                caption: "Organic floral styling and garden-inspired tablescape"
+              },
+              {
+                src: "images/saniyah-bilal/tables-serpentine-florals-1.png",
+                caption: "Continuous moss and floral styling"
+              }
+            ]
+          }
+        ]
+      },
+
+      // ======================================
+      // PLACE SETTINGS
+      // ======================================
+
+      {
+        id: "place-settings",
+        eyebrow: "The Finishing Touches",
+        title: "The Place Setting",
+        tone: "sand",
+
+        introduction: "Each place setting brings a refined balance to the richness of the floral design. Soft champagne tones, polished silver detailing, delicate glassware and natural textures create an elegant and cohesive dining experience.",
+
+        groups: [
+          {
+            title: "Tableware & Dining Details",
+            description: "Silver cutlery and silver-toned hardware are paired with elegant crockery and clear glassware. Soft neutral napkins and carefully considered stationery complement the champagne linens and botanical centrepieces. The overall look is refined and contemporary, avoiding black or gold hardware.",
+
+            images: [
+              {
+                src: "images/saniyah-bilal/palette-and-table-direction.jpeg",
+                caption: "Coordinated table styling and palette direction"
+              }
+            ]
+          }
+        ]
+      },
+
+      // ======================================
+      // SWEETHEART TABLE
+      // ======================================
+
+      {
+        id: "sweetheart",
+        eyebrow: "The Focal Point",
+        title: "The Sweetheart Table",
+        tone: "blush",
+
+        introduction: "The sweetheart table will be a beautifully considered focal point, framed by sculptural olive and cream drapery, an abundant floral meadow and warm statement lighting.",
+
+        groups: [
+          {
+            title: "Drapery & Floral Meadow",
+            description: "Layered olive and cream fabric creates a romantic backdrop behind the couple. A low, abundant meadow of burgundy, blush and green flowers grows naturally across the front of the setting, softened by candlelight and coordinated with the botanical styling throughout the venue.",
+
+            images: [
+              {
+                src: "images/saniyah-bilal/head-table-olive-draping-1.jpeg",
+                caption: "Sweetheart table drapery and focal-point inspiration"
+              },
+              {
+                src: "images/saniyah-bilal/florals-statement-1.png",
+                caption: "Rich floral meadow inspiration"
+              }
+            ]
+          }
+        ]
+      },
+
+      // ======================================
+      // FOOD STATION
+      // ======================================
+
+      {
+        id: "food-station",
+        eyebrow: "The Hospitality Experience",
+        title: "The Food Station",
+        tone: "ivory",
+
+        introduction: "The food presentation will be treated as part of the wider reception design, with elegant serving arrangements and botanical styling that complement the garden-inspired atmosphere.",
+
+        groups: [
+          {
+            title: "A Beautifully Presented Luncheon",
+            description: "The food service area will incorporate coordinated linens, refined serving pieces, subtle floral arrangements and considered signage. The styling will feel welcoming and abundant while keeping service practical and accessible for guests.",
+
+            images: []
+          }
+        ]
+      },
+
+      // ======================================
+      // DESSERT STATION
+      // ======================================
+
+      {
+        id: "dessert",
+        eyebrow: "A Sweet Finale",
+        title: "The Dessert Station",
+        tone: "blush",
+
+        introduction: "A beautifully styled dessert station continues the garden story, introducing a sense of softness and abundance through florals, texture and carefully arranged displays.",
+
+        groups: [
+          {
+            title: "The Garden Dessert Display",
+            description: "The dessert area will be designed as a cohesive feature within the reception, with layered display heights, coordinating florals and elegant serving details. Burgundy, blush, cream and fresh greenery connect the display to the wider botanical concept.",
+
+            images: []
+          }
+        ]
+      },
+
+      // ======================================
+      // FINISHING DETAILS
+      // ======================================
+
+      {
+        id: "details",
+        eyebrow: "The Complete Experience",
+        title: "Finishing Details",
+        tone: "sage",
+
+        introduction: "It is the thoughtful details that bring the entire celebration together. From the first welcome through to the final floral arrangement, every element will contribute to a cohesive, memorable and beautifully considered Nikah luncheon.",
+
+        groups: [
+          {
+            title: "A Cohesive Design Story",
+            description: "The rich olive drapery, sculptural flowers, moss textures, clear seating, champagne linens, silver hardware and warm lighting are carried consistently throughout the experience, creating a celebration that feels grand without losing its natural softness.",
+
+            images: [
+              {
+                src: "images/saniyah-bilal/reception-olive-draping-trees-1.jpeg",
+                caption: "The complete garden-inspired reception atmosphere"
+              },
+              {
+                src: "images/saniyah-bilal/florals-garden-table-1.jpeg",
+                caption: "Botanical details and organic floral styling"
+              }
+            ]
+          }
+        ]
+      }
+
+    ]
+  }
+
 };
+
