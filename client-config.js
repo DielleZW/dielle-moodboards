@@ -847,7 +847,12 @@ window.DIELLE_CLIENTS = {
             title: "The Garden Dessert Display",
             description: "The dessert area will be designed as a cohesive feature within the reception, with layered display heights, coordinating florals and elegant serving details. Burgundy, blush, cream and fresh greenery connect the display to the wider botanical concept.",
 
-            images: []
+            images: [
+  {
+    src: "images/saniyah-bilal/florals-garden-table-1.jpeg",
+    caption: "Botanical details and organic floral styling on serpentine tables"
+  }
+]
           }
         ]
       },
