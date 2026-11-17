@@ -890,6 +890,117 @@ window.DIELLE_CLIENTS = {
 
     ]
   }
+,
+
+  // RACHEL & MICHAEL
+  "rachel-michael": {
+  "couple": "Rachel & Michael",
+  "date": "25 September 2027",
+  "venue": "Haka Game Reserve, Zimbabwe",
+  "kicker": "A savannah wedding design story",
+  "introduction": "An immersive celebration unfolding from the open savannah to an atmospheric quarry, with sculptural fabric, earthy textures and warm, thoughtful details.",
+  "colors": [
+    {
+      "name": "Green Olive · 17-0535 TCX",
+      "hex": "#777B5A"
+    },
+    {
+      "name": "Dark Brown · PMS 4625 C",
+      "hex": "#4A291E"
+    },
+    {
+      "name": "Champagne",
+      "hex": "#D8C8B4"
+    },
+    {
+      "name": "Cream",
+      "hex": "#F1E9DB"
+    },
+    {
+      "name": "Terracotta",
+      "hex": "#AD7156"
+    }
+  ],
+  "paletteNote": "Green Olive and dark brown anchor a palette of warm champagne, cream and terracotta. Screen colours are approximate; use the specified Pantone references for physical colour matching.",
+  "sections": [
+    {
+      "id": "ceremony",
+      "eyebrow": "Environment I",
+      "title": "The Ceremony",
+      "tone": "sand",
+      "introduction": "A savannah ceremony shaped by the landscape, with softly draped forms, natural texture and flowers woven through the seating.",
+      "groups": [
+        {
+          "title": "The Savannah Setting",
+          "description": "Staggered chairs create an organic arrangement, interspersed with draped benches and ottomans. Florals are dispersed among the seats so the entire ceremony feels connected to the landscape.",
+          "images": []
+        },
+        {
+          "title": "The Backdrop & Welcome",
+          "description": "A sculptural draped backdrop forms the ceremony focal point, complemented by terracotta vessels. A brown fabric welcome sign introduces the celebration with understated warmth.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "predrinks",
+      "eyebrow": "Environment II",
+      "title": "Predrinks",
+      "tone": "ivory",
+      "introduction": "A relaxed gathering nearby, with a welcoming bar and intimate lounge pockets set within the landscape.",
+      "groups": [
+        {
+          "title": "The Bar & Lounge",
+          "description": "A brown and sage bar anchors the space. Reed-woven lounge pockets sit beneath draped timber pergolas, creating shaded places for guests to gather.",
+          "images": []
+        },
+        {
+          "title": "Cocktails & Lawn Games",
+          "description": "Cocktail tables and lawn games encourage guests to mingle and enjoy the surroundings between ceremony and reception.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "id": "reception",
+      "eyebrow": "Environment III",
+      "title": "The Quarry Reception",
+      "tone": "sage",
+      "introduction": "As evening falls, warm light and thoughtful draping transform the quarry into an inviting celebration beneath the night sky.",
+      "groups": [
+        {
+          "title": "The Entrance & Arrival",
+          "description": "A discreet, approximately 20-metre-wide entrance is dressed in sage draping only. A wooden-look walkway draws guests into the quarry.",
+          "images": []
+        },
+        {
+          "title": "The Quarry After Dark",
+          "description": "The cliff is uplighted to reveal its natural texture, while overhead fairy lights and touches of draping bring warmth and softness to the open setting.",
+          "images": []
+        },
+        {
+          "title": "The Central Bar & Dancefloor",
+          "description": "A white square central bar with wood details becomes the heart of the celebration. Greenery rises overhead, with the dancefloor surrounding the bar.",
+          "images": []
+        },
+        {
+          "title": "Tables & Floral Styling",
+          "description": "Mixed round and rectangular tables are dressed in champagne and cream, with some sage linen. Varied floral designs create distinct moments across the reception.",
+          "images": []
+        },
+        {
+          "title": "The Place Setting",
+          "description": "Reed placemats are layered with gold-rimmed ribbed chargers, satin brown napkins and matt gold Portuguese cutlery, bringing natural texture and refined warmth together.",
+          "images": []
+        },
+        {
+          "title": "The Dessert Station",
+          "description": "A dessert display unfolds along draped serpentine tables, carrying the soft, sculptural fabric story into the evening.",
+          "images": []
+        }
+      ]
+    }
+  ]
+}
 
 };
-
