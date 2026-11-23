@@ -933,12 +933,42 @@ window.DIELLE_CLIENTS = {
         {
           "title": "The Savannah Setting",
           "description": "Staggered chairs create an organic arrangement, interspersed with draped benches and ottomans. Florals are dispersed among the seats so the entire ceremony feels connected to the landscape.",
-          "images": []
+          "images": [
+  {
+    "src": "images/rachel-michael/Ceremony-2.png",
+    "caption": "Ceremony 2"
+  },
+  {
+    "src": "images/rachel-michael/Ceremony-Aisle.png",
+    "caption": "Ceremony Aisle"
+  },
+  {
+    "src": "images/rachel-michael/Ceremony-Aisle-Full.png",
+    "caption": "Ceremony Aisle Full"
+  }
+]
         },
         {
           "title": "The Backdrop & Welcome",
           "description": "A sculptural draped backdrop forms the ceremony focal point, complemented by terracotta vessels. A brown fabric welcome sign introduces the celebration with understated warmth.",
-          "images": []
+          "images": [
+  {
+    "src": "images/rachel-michael/Ceremony-Arch-Draped.png",
+    "caption": "Ceremony Arch Draped"
+  },
+  {
+    "src": "images/rachel-michael/Ceremony-Arch-2.png",
+    "caption": "Ceremony Arch 2"
+  },
+  {
+    "src": "images/rachel-michael/Ceremony-Arch-GoalPost.png",
+    "caption": "Ceremony Arch GoalPost"
+  },
+  {
+    "src": "images/rachel-michael/Ceremony-Welcome-Sign.png",
+    "caption": "Ceremony Welcome Sign"
+  }
+]
         }
       ]
     },
@@ -952,12 +982,38 @@ window.DIELLE_CLIENTS = {
         {
           "title": "The Bar & Lounge",
           "description": "A brown and sage bar anchors the space. Reed-woven lounge pockets sit beneath draped timber pergolas, creating shaded places for guests to gather.",
-          "images": []
+          "images": [
+  {
+    "src": "images/rachel-michael/Pre-Reception.png",
+    "caption": "Pre Reception"
+  },
+  {
+    "src": "images/rachel-michael/Pre-Reception-Bar.png",
+    "caption": "Pre Reception Bar"
+  },
+  {
+    "src": "images/rachel-michael/Pre-Reception-Bar-2.png",
+    "caption": "Pre Reception Bar 2"
+  },
+  {
+    "src": "images/rachel-michael/pre-reception-lounge-pocket.png",
+    "caption": "pre reception lounge pocket"
+  }
+]
         },
         {
           "title": "Cocktails & Lawn Games",
           "description": "Cocktail tables and lawn games encourage guests to mingle and enjoy the surroundings between ceremony and reception.",
-          "images": []
+          "images": [
+  {
+    "src": "images/rachel-michael/Pre-Reception-Cocktail.png",
+    "caption": "Pre Reception Cocktail"
+  },
+  {
+    "src": "images/rachel-michael/Pre-Reception-LawnGames.png",
+    "caption": "Pre Reception LawnGames"
+  }
+]
         }
       ]
     },
@@ -971,32 +1027,110 @@ window.DIELLE_CLIENTS = {
         {
           "title": "The Entrance & Arrival",
           "description": "A discreet, approximately 20-metre-wide entrance is dressed in sage draping only. A wooden-look walkway draws guests into the quarry.",
-          "images": []
+          "images": [
+  {
+    "src": "images/rachel-michael/reception-entrance.png",
+    "caption": "reception entrance"
+  },
+  {
+    "src": "images/rachel-michael/reception-bar-entrance.png",
+    "caption": "reception bar entrance"
+  }
+]
         },
         {
           "title": "The Quarry After Dark",
           "description": "The cliff is uplighted to reveal its natural texture, while overhead fairy lights and touches of draping bring warmth and softness to the open setting.",
-          "images": []
+          "images": [
+  {
+    "src": "images/rachel-michael/reception-cliff.png",
+    "caption": "reception cliff"
+  },
+  {
+    "src": "images/rachel-michael/Reception-Cliff-Table.png",
+    "caption": "Reception Cliff Table"
+  },
+  {
+    "src": "images/rachel-michael/reception-layout.png",
+    "caption": "reception layout"
+  }
+]
         },
         {
           "title": "The Central Bar & Dancefloor",
           "description": "A white square central bar with wood details becomes the heart of the celebration. Greenery rises overhead, with the dancefloor surrounding the bar.",
-          "images": []
+          "images": [
+  {
+    "src": "images/rachel-michael/Reception-bar.png",
+    "caption": "Reception bar"
+  },
+  {
+    "src": "images/rachel-michael/Reception-Bar-Cliff.png",
+    "caption": "Reception Bar Cliff"
+  },
+  {
+    "src": "images/rachel-michael/Reception-Cliff-Bar.png",
+    "caption": "Reception Cliff Bar"
+  }
+]
         },
         {
           "title": "Tables & Floral Styling",
           "description": "Mixed round and rectangular tables are dressed in champagne and cream, with some sage linen. Varied floral designs create distinct moments across the reception.",
-          "images": []
+          "images": [
+  {
+    "src": "images/rachel-michael/Reception-Rectangle-Simple.png",
+    "caption": "Reception Rectangle Simple"
+  },
+  {
+    "src": "images/rachel-michael/Reception-Rectangle-Table.png",
+    "caption": "Reception Rectangle Table"
+  },
+  {
+    "src": "images/rachel-michael/Reception-Round-Table.png",
+    "caption": "Reception Round Table"
+  },
+  {
+    "src": "images/rachel-michael/Reception-Table.png",
+    "caption": "Reception Table"
+  },
+  {
+    "src": "images/rachel-michael/Reception-Table-Rectangle.png",
+    "caption": "Reception Table Rectangle"
+  },
+  {
+    "src": "images/rachel-michael/reception-rectangle-brown-napkin.png",
+    "caption": "reception rectangle brown napkin"
+  }
+]
         },
         {
           "title": "The Place Setting",
           "description": "Reed placemats are layered with gold-rimmed ribbed chargers, satin brown napkins and matt gold Portuguese cutlery, bringing natural texture and refined warmth together.",
-          "images": []
+          "images": [
+  {
+    "src": "images/rachel-michael/reception-place-setting.png",
+    "caption": "reception place setting"
+  },
+  {
+    "src": "images/rachel-michael/Reception-Place-Setting-2.png",
+    "caption": "Reception Place Setting 2"
+  },
+  {
+    "src": "images/rachel-michael/reception-settings.png",
+    "caption": "reception settings"
+  }
+]
         },
         {
           "title": "The Dessert Station",
           "description": "A dessert display unfolds along draped serpentine tables, carrying the soft, sculptural fabric story into the evening.",
-          "images": []
+          "images": [
+  {
+    "src": "images/rachel-michael/Reception-Dessert-Station.png",
+    "caption": "Reception Dessert Station"
+  }
+]
         }
       ]
     }
