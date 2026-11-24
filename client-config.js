@@ -1247,20 +1247,20 @@ window.DIELLE_CLIENTS = {
           "description": "Option 1: Round arch — a champagne circular arch with light ivory draping and burgundy, dusty rose, blush and ivory florals. Option 2: Triangle arch — two overlapping timber A-frames at different heights, with asymmetric florals and an open lake view. Option 3: Floor arch — a continuous half-circle of flowers around the couple, leaving the lake visible behind them. Option 4: Draped altar — sculptural ivory fabric with rich burgundy and blush floral accents. The gallery presents altar inspiration for comparison.",
           "images": [
             {
-              "src": "images/arthur-kuda/altar-draped.jpg",
-              "caption": "altar draped"
+              "src": "images/arthur-kuda/7D546F81-1585-4263-AFD6-C5E0FC78F9E3.png",
+              "caption": "Ceremony altar design inspiration"
             },
             {
-              "src": "images/arthur-kuda/altar-alternative.jpg",
-              "caption": "altar alternative"
+              "src": "images/arthur-kuda/9324DF44-DFF0-4656-82D9-A772914CBED2.png",
+              "caption": "Ceremony altar design inspiration"
             },
             {
-              "src": "images/arthur-kuda/Ceremony Alter Draped.png",
-              "caption": "Ceremony Alter Draped"
+              "src": "images/arthur-kuda/C384CF21-389A-484C-83BF-7133B878C8B9.png",
+              "caption": "Ceremony altar design inspiration"
             },
             {
-              "src": "images/arthur-kuda/Ceremony Alter.png",
-              "caption": "Ceremony Alter"
+              "src": "images/arthur-kuda/C9FB0E03-3F75-40BB-8E4F-D63FB2FD0D78.png",
+              "caption": "Ceremony altar design inspiration"
             }
           ]
         }
