@@ -1136,5 +1136,112 @@ window.DIELLE_CLIENTS = {
     }
   ]
 }
+,
+
+  // ARTHUR & KUDA
+  "arthur-kuda": {
+  "couple": "Arthur & Kuda",
+  "date": "21 February 2027",
+  "venue": "Hideaway Lodge, Darwendale",
+  "kicker": "A lakeside wedding design story",
+  "introduction": "A celebration that begins beside the water and continues into the main hall, blending flowing drapery, rich florals and considered details. This moodboard brings together the ceremony options and reception entrance developed so far.",
+  "colors": [
+    {
+      "name": "Wine",
+      "hex": "#651F30"
+    },
+    {
+      "name": "Dusty Mauve",
+      "hex": "#A8697A"
+    },
+    {
+      "name": "Blush",
+      "hex": "#DFC0C3"
+    },
+    {
+      "name": "Cream",
+      "hex": "#EDDFCA"
+    },
+    {
+      "name": "Olive",
+      "hex": "#6E6B41"
+    }
+  ],
+  "paletteNote": "Deep burgundy and wine are softened with dusty mauve, blush and cream, balanced by olive and fresh greenery.",
+  "sections": [
+    {
+      "id": "ceremony",
+      "eyebrow": "Environment I",
+      "title": "The Ceremony",
+      "tone": "sand",
+      "introduction": "A simple, elegant ceremony on the lakeside promenade. Flowing fabric and rich florals frame the water, with two seating directions to consider for approximately 200 guests.",
+      "groups": [
+        {
+          "title": "The Entrance & Welcome",
+          "description": "A grand, flowing maroon-draped entrance opens onto the ceremony. A white net welcome sign introduces the celebration, with the aisle and draped altar visible beyond.",
+          "images": [
+            {
+              "src": "images/arthur-kuda/ceremony-entrance.jpg",
+              "caption": "Maroon ceremony entrance and welcome sign"
+            }
+          ]
+        },
+        {
+          "title": "The Aisle & Seating — Option One",
+          "description": "A cream aisle leads toward the altar. Draped benches and ottomans are interspersed with floral arrangements in burgundy, blush and cream. The image illustrates the styling direction; seating quantities will be planned for the guest count.",
+          "images": [
+            {
+              "src": "images/arthur-kuda/seating-benches.jpg",
+              "caption": "Draped benches, ottomans and dispersed florals"
+            }
+          ]
+        },
+        {
+          "title": "The Aisle & Seating — Option Two",
+          "description": "Dark wood cross-back chairs are arranged on either side of the cream aisle, with generous burgundy bows on the aisle chairs. Large fringed parasols provide shade, while a basket of small parasols and fans welcomes guests. Two long floral arrangements frame the backs of the last chairs. The visual is illustrative; the final layout will accommodate 200 guests.",
+          "images": [
+            {
+              "src": "images/arthur-kuda/seating-chairs.jpg",
+              "caption": "Dark wood chairs, fringed parasols and guest fans"
+            }
+          ]
+        },
+        {
+          "title": "The Altar — Two Ideas",
+          "description": "Both altar ideas pair sculptural ivory fabric with burgundy, wine, dusty mauve, blush and cream flowers. One uses a tall cascading backdrop; the other opens the view to the lake with an asymmetric sweep of draping.",
+          "images": [
+            {
+              "src": "images/arthur-kuda/altar-draped.jpg",
+              "caption": "Option one: tall cascading draped altar"
+            },
+            {
+              "src": "images/arthur-kuda/altar-alternative.jpg",
+              "caption": "Option two: open, asymmetrical draped altar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reception",
+      "eyebrow": "Environment II",
+      "title": "The Reception",
+      "tone": "sage",
+      "introduction": "The celebration moves into the main hall. The entrance introduces the reception palette through generous olive draping and rich floral details; further reception styling is still being developed.",
+      "groups": [
+        {
+          "title": "The Grand Hall Entrance",
+          "description": "Full-height olive fabric follows the hall entrance, gathered into generous sweeping layers around a clear central opening. Burgundy, blush and cream flowers and soft uplighting frame the approach.",
+          "images": [
+            {
+              "src": "images/arthur-kuda/reception-entrance.jpg",
+              "caption": "Flowing olive draping at the main hall entrance"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
 
 };
