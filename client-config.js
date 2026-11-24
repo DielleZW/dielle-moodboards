@@ -1243,8 +1243,8 @@ window.DIELLE_CLIENTS = {
           ]
         },
         {
-          "title": "The Altar — Design Options",
-          "description": "Sculptural ivory draping, rich burgundy and blush florals, and an alternative half-circle floor arch frame the lakeside ceremony.",
+          "title": "The Altar — Four Design Options",
+          "description": "Option 1: Round arch — a champagne circular arch with light ivory draping and burgundy, dusty rose, blush and ivory florals. Option 2: Triangle arch — two overlapping timber A-frames at different heights, with asymmetric florals and an open lake view. Option 3: Floor arch — a continuous half-circle of flowers around the couple, leaving the lake visible behind them. Option 4: Draped altar — sculptural ivory fabric with rich burgundy and blush floral accents. The gallery presents altar inspiration for comparison.",
           "images": [
             {
               "src": "images/arthur-kuda/altar-draped.jpg",
