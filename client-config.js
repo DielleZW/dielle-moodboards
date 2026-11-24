@@ -1144,7 +1144,7 @@ window.DIELLE_CLIENTS = {
   "date": "21 February 2027",
   "venue": "Hideaway Lodge, Darwendale",
   "kicker": "A lakeside wedding design story",
-  "introduction": "A celebration that begins beside the water and continues into the main hall, blending flowing drapery, rich florals and considered details. This moodboard brings together the ceremony options and reception entrance developed so far.",
+  "introduction": "A celebration that begins beside the water and continues into the main hall, blending flowing drapery, rich florals, statement lighting and considered details.",
   "colors": [
     {
       "name": "Wine",
@@ -1181,8 +1181,28 @@ window.DIELLE_CLIENTS = {
           "description": "A grand, flowing maroon-draped entrance opens onto the ceremony. A white net welcome sign introduces the celebration, with the aisle and draped altar visible beyond.",
           "images": [
             {
+              "src": "images/arthur-kuda/Arthur & Kuda’s Burgundy Lakeside Welcome.png",
+              "caption": "Arthur & Kuda’s Burgundy Lakeside Welcome"
+            },
+            {
               "src": "images/arthur-kuda/ceremony-entrance.jpg",
-              "caption": "Maroon ceremony entrance and welcome sign"
+              "caption": "ceremony entrance"
+            },
+            {
+              "src": "images/arthur-kuda/Ceremony Entrance.png",
+              "caption": "Ceremony Entrance"
+            },
+            {
+              "src": "images/arthur-kuda/Ceremony Entrance2.png",
+              "caption": "Ceremony Entrance2"
+            },
+            {
+              "src": "images/arthur-kuda/Ceremony Entrance3.jpg",
+              "caption": "Ceremony Entrance3"
+            },
+            {
+              "src": "images/arthur-kuda/Ceremony Entrance 4.png",
+              "caption": "Ceremony Entrance 4"
             }
           ]
         },
@@ -1192,7 +1212,11 @@ window.DIELLE_CLIENTS = {
           "images": [
             {
               "src": "images/arthur-kuda/seating-benches.jpg",
-              "caption": "Draped benches, ottomans and dispersed florals"
+              "caption": "seating benches"
+            },
+            {
+              "src": "images/arthur-kuda/Ceremony Seating.png",
+              "caption": "Ceremony Seating"
             }
           ]
         },
@@ -1202,21 +1226,41 @@ window.DIELLE_CLIENTS = {
           "images": [
             {
               "src": "images/arthur-kuda/seating-chairs.jpg",
-              "caption": "Dark wood chairs, fringed parasols and guest fans"
+              "caption": "seating chairs"
+            },
+            {
+              "src": "images/arthur-kuda/Ceremony Aisle Parasols.png",
+              "caption": "Ceremony Aisle Parasols"
+            },
+            {
+              "src": "images/arthur-kuda/Ceremony Aisle.png",
+              "caption": "Ceremony Aisle"
+            },
+            {
+              "src": "images/arthur-kuda/Ceremony.JPG",
+              "caption": "Ceremony"
             }
           ]
         },
         {
-          "title": "The Altar — Two Ideas",
-          "description": "Both altar ideas pair sculptural ivory fabric with burgundy, wine, dusty mauve, blush and cream flowers. One uses a tall cascading backdrop; the other opens the view to the lake with an asymmetric sweep of draping.",
+          "title": "The Altar — Design Options",
+          "description": "Sculptural ivory draping, rich burgundy and blush florals, and an alternative half-circle floor arch frame the lakeside ceremony.",
           "images": [
             {
               "src": "images/arthur-kuda/altar-draped.jpg",
-              "caption": "Option one: tall cascading draped altar"
+              "caption": "altar draped"
             },
             {
               "src": "images/arthur-kuda/altar-alternative.jpg",
-              "caption": "Option two: open, asymmetrical draped altar"
+              "caption": "altar alternative"
+            },
+            {
+              "src": "images/arthur-kuda/Ceremony Alter Draped.png",
+              "caption": "Ceremony Alter Draped"
+            },
+            {
+              "src": "images/arthur-kuda/Ceremony Alter.png",
+              "caption": "Ceremony Alter"
             }
           ]
         }
@@ -1227,7 +1271,7 @@ window.DIELLE_CLIENTS = {
       "eyebrow": "Environment II",
       "title": "The Reception",
       "tone": "sage",
-      "introduction": "The celebration moves into the main hall. The entrance introduces the reception palette through generous olive draping and rich floral details; further reception styling is still being developed.",
+      "introduction": "The main hall is transformed through layered drapery, warm statement lighting and rich botanical styling, creating an intimate and dramatic celebration.",
       "groups": [
         {
           "title": "The Grand Hall Entrance",
@@ -1235,7 +1279,137 @@ window.DIELLE_CLIENTS = {
           "images": [
             {
               "src": "images/arthur-kuda/reception-entrance.jpg",
-              "caption": "Flowing olive draping at the main hall entrance"
+              "caption": "reception entrance"
+            }
+          ]
+        },
+        {
+          "title": "Ceiling & Drapery",
+          "description": "Black fabric conceals the existing roof, with flowing decorative drapery softening the hall and framing the space.",
+          "images": [
+            {
+              "src": "images/arthur-kuda/Reception-Draping.JPG",
+              "caption": "Reception Draping"
+            },
+            {
+              "src": "images/arthur-kuda/REception-Draping-2.JPG",
+              "caption": "REception Draping 2"
+            },
+            {
+              "src": "images/arthur-kuda/Reception-Draping-3.JPG",
+              "caption": "Reception Draping 3"
+            },
+            {
+              "src": "images/arthur-kuda/Reception-Draping-4.JPG",
+              "caption": "Reception Draping 4"
+            }
+          ]
+        },
+        {
+          "title": "Statement Lighting",
+          "description": "Oversized three-metre linen chandeliers with cream fringe, burgundy accents and warm dimmable naked helix bulbs create a dramatic overhead feature.",
+          "images": [
+            {
+              "src": "images/arthur-kuda/Chandelier-Fringe.PNG",
+              "caption": "Chandelier Fringe"
+            },
+            {
+              "src": "images/arthur-kuda/Chandelier-Fringe.jpg",
+              "caption": "Chandelier Fringe"
+            }
+          ]
+        },
+        {
+          "title": "Table Layout & Dining",
+          "description": "A considered dining layout connects the tables with the dancefloor and main reception features.",
+          "images": [
+            {
+              "src": "images/arthur-kuda/Reception-Arrangement.JPG",
+              "caption": "Reception Arrangement"
+            },
+            {
+              "src": "images/arthur-kuda/REception-Tables-Dancefloor.JPG",
+              "caption": "REception Tables Dancefloor"
+            },
+            {
+              "src": "images/arthur-kuda/Reception-Table-4.JPG",
+              "caption": "Reception Table 4"
+            }
+          ]
+        },
+        {
+          "title": "Table Florals",
+          "description": "Burgundy, blush and cream blooms with olive greenery bring depth and softness to the tables.",
+          "images": [
+            {
+              "src": "images/arthur-kuda/REception-Table-Florals.JPG",
+              "caption": "REception Table Florals"
+            },
+            {
+              "src": "images/arthur-kuda/Reception-Florals.JPG",
+              "caption": "Reception Florals"
+            }
+          ]
+        },
+        {
+          "title": "The Place Setting",
+          "description": "Coordinated tableware and layered textures complete the dining experience.",
+          "images": [
+            {
+              "src": "images/arthur-kuda/Reception-Tables-Place-Setting.JPG",
+              "caption": "Reception Tables Place Setting"
+            }
+          ]
+        },
+        {
+          "title": "The Head Table",
+          "description": "A statement focal point for the couple, coordinated with the reception florals and drapery.",
+          "images": [
+            {
+              "src": "images/arthur-kuda/Reception-Headtable.JPG",
+              "caption": "Reception Headtable"
+            },
+            {
+              "src": "images/arthur-kuda/Headtable-2.JPG",
+              "caption": "Headtable 2"
+            }
+          ]
+        },
+        {
+          "title": "The Dancefloor",
+          "description": "Warm overhead lighting and botanical details create an inviting space for celebration.",
+          "images": [
+            {
+              "src": "images/arthur-kuda/Reception-Dancefloor.JPG",
+              "caption": "Reception Dancefloor"
+            },
+            {
+              "src": "images/arthur-kuda/Reception-Dancefloor-3.JPG",
+              "caption": "Reception Dancefloor 3"
+            },
+            {
+              "src": "images/arthur-kuda/Reception-Dancefloor-w.JPG",
+              "caption": "Reception Dancefloor w"
+            }
+          ]
+        },
+        {
+          "title": "The Bar",
+          "description": "A coordinated bar design continues the reception styling.",
+          "images": [
+            {
+              "src": "images/arthur-kuda/Reception-Bar.JPG",
+              "caption": "Reception Bar"
+            }
+          ]
+        },
+        {
+          "title": "The Dessert Station",
+          "description": "A thoughtfully styled dessert display completes the hospitality experience.",
+          "images": [
+            {
+              "src": "images/arthur-kuda/Reception-Dessert.JPG",
+              "caption": "Reception Dessert"
             }
           ]
         }
