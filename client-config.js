@@ -1280,6 +1280,18 @@ window.DIELLE_CLIENTS = {
             {
               "src": "images/arthur-kuda/reception-entrance.jpg",
               "caption": "reception entrance"
+            },
+            {
+              "src": "images/arthur-kuda/IMG_8023.JPG",
+              "caption": "Reception entrance inspiration 1"
+            },
+            {
+              "src": "images/arthur-kuda/IMG_8027.JPG",
+              "caption": "Reception entrance inspiration 2"
+            },
+            {
+              "src": "images/arthur-kuda/IMG_8029.JPG",
+              "caption": "Reception entrance inspiration 3"
             }
           ]
         },
